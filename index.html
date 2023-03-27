@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+
+</head>
+<body>
+    <h1>Login Page</h1>
+    <form action="/auth" method="post" style="width: 50%; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+        <label for="user" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Username:</label>
+        <input type="text" name="user" id="user" style="padding: 5px; border: 1px solid #ccc; border-radius: 3px;"><br>
+        <label for="password" style="display: inline-block; width: 100px; text-align: right; margin-right: 10px;">Password:</label>
+        <input type="password" name="password" id="password" style="padding: 5px; border: 1px solid #ccc; border-radius: 3px;"><br>
+        <input type="submit" value="Submit" style="background-color: #4CAF50; color: white; border: none; padding: 5px; border-radius: 3px;">
+        <button type="button" onclick="window.location.href='/register'">Register</button>
+    </form>
+      
+</body>
+</html>

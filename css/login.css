@@ -1,0 +1,37 @@
+body {
+    background-color: #f1f1f1;
+  }
+  
+  form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
